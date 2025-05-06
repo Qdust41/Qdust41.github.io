@@ -11126,9 +11126,15 @@ body {
   padding: 2rem;
 }
 @media (min-width: 992px) {
-  .projects-section .featured-text {
+  .projects-section .featured-text-left {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
+  }
+}
+@media (min-width: 992px) {
+  .projects-section .featured-text-right {
+    padding: 0 0 2rem 0;
+    border-right: 0.5rem solid #64a19d;
   }
 }
 .projects-section .project-text {
@@ -11140,28 +11146,13 @@ body {
     padding: 5rem;
   }
 }
-
-.signup-section {
-  padding: 10rem 0;
+.contact-section {
+  padding: 5rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-}
-.signup-section .form-signup input {
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  height: auto;
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 80%;
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-  border: 0;
-}
-
-.contact-section {
-  padding-top: 5rem;
 }
 .contact-section .card {
   border: 0;

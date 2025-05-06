@@ -28,7 +28,7 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -53,14 +53,14 @@
                         <h2 class="text-white mb-4">About Me</h2>
                         <p class="text-white-50">
                             My little corner of GitHub mostly just houses some personal projects and some work I need to access from multiple places.
-                            Right now I just wanted to have somewhere to display things that everyone could view easily and hopefully it's done just that!
+                            I like having somewhere I can display things that everyone could view easily and hopefully it's done just that!
                             If you wanted to check everything out in more detail its all avalible on my 
-                            <a href="https://github.com/Qdust41">GitHub</a>
+                            <a target="_blank" href="https://github.com/Qdust41">GitHub</a>
                             here.
                         </p>
                     </div>
                 </div>
-                <img class="img-fluid" src="assets/img/ipad.png" alt="..." />
+                <img class="img-fluid" src="" alt="..." />
             </div>
         </section>
         <!-- Projects-->
@@ -70,10 +70,12 @@
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
-                        <div class="featured-text text-center text-lg-left">
-                            <h4>Project Name 1</h4>
+                        <div class="featured-text-left text-center text-lg-left">
+                            <h4>Homelab</h4>
                             <p class="text-black-50 mb-0">
-                                This is just filler for right now I plan to come through and edit this later
+                                My personal homelab is an onging project I love working on. I personally host my own 
+                                <a target="_blank" href="https://qdust.space">website</a> among other services that are deployed on my own
+                                personal VLAN. Among them are some game servers as well which I host for my friends and I to enjoy!
                             </p>
                         </div>
                     </div>
@@ -85,9 +87,10 @@
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Project Name 2</h4>
+                                    <h4 class="text-white">Python Stock Automation Bot</h4>
                                     <p class="mb-0 text-white-50">
-                                        This is just filler for right now I plan to come through and edit this later
+                                        This was a bot written in python to learn how to utilize some stock API's and trade in real time.
+                                        Additionally it was a great introduction to sockets and how to create connections and have working netcode.
                                     </p>
                                 </div>
                             </div>
@@ -95,75 +98,45 @@
                     </div>
                 </div>
                 <!-- Project Two Row-->
-                <div class="row gx-0 justify-content-center">
+                <div class="row gx-0 justify-content-center mb-lg-5">
                     <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Project Name 3</h4>
+                                    <h4 class="text-white">Discord Bot</h4>
                                     <p class="mb-0 text-white-50">
-                                        This is just filler for right now I plan to come through and edit this later
+                                        A project I did a long time ago was making a discord bot for my friends and I to use. It was very crude
+                                        and stored all of its userdata in a handful of json files but it did the job for our simple use case and was fun.
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- Signup-->
-        <section class="signup-section" id="signup">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Email address input-->
-                            <div class="row input-group-newsletter">
-                                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
-                            </div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3 mt-2 text-white">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
-                        </form>
+                <!-- Project Feature Two Row-->
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text-right text-center text-lg-left">
+                            <h4>Rust Server</h4>
+                            <p class="text-black-50 mb-0">
+                                My current working project is a rust server that will serve as a replacement for Discord for my friends and I.
+                                It is currently very simple but I am adding features and bug fixes with each commit!
+                            </p>
+                        </div>
                     </div>
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
                 </div>
             </div>
         </section>
         <!-- Contact-->
-        <section class="contact-section bg-black">
+        <section class="contact-section bg-black" id="contact">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
-                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                                <i class="fab fa-discord text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Discord</h4>
                                 <hr class="my-4 mx-auto" />
                                 <div class="small text-black-50">Qdust41</div>
@@ -176,25 +149,25 @@
                                 <i class="fas fa-envelope text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Email</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">qdust41@gmail.com</a></div>
+                                <div class="small text-black-50"><a href="mailto:qdust41@gmail.com">qdust41@gmail.com</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Phone</h4>
+                                <i class="fab fa-github text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">GitHub</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">Lol No</div>
+                                <div class="small text-black-50">Qdust41</div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                    <a class="mx-2" target="_blank" href="https://discordapp.com/users/562837988938219571"><i class="fab fa-discord"></i></a>
+                    <a class="mx-2" target="_blank" href="https://qdust.space"><i class="fa fa-globe"></i></a>
+                    <a class="mx-2" target="_blank" href="https://github.com/Qdust41"><i class="fab fa-github"></i></a>
                 </div>
             </div>
         </section>
